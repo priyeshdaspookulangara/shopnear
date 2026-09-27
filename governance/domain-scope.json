@@ -1,0 +1,24 @@
+{
+  "systemName": "Shopnear Marketplace",
+  "approvedDomain": "Multi-Vendor Hyperlocal and B2C E-Commerce Marketplace",
+  "domainLock": {
+    "allowedCoreModules": [
+      "Multi-Vendor Storefronts & Product Catalogs",
+      "Hyperlocal Distance-Based Delivery Routing",
+      "Commission & Split-Payment Escrow Ledger",
+      "Stateless Mobile REST API Gateway (JWT)",
+      "Multi-Language Localization Engine (i18n)",
+      "Headless CMS & Dynamic Landing Page Builder",
+      "Vendor Ad Campaigns & Sponsored Placement Engine",
+      "Demo / Sandbox Payment Gateway Facility"
+    ],
+    "forbiddenDomains": [
+      "Inpatient Medical Hospital Records & Prescriptions",
+      "Cryptocurrency Smart-Contract Mining Pools",
+      "Unregulated Multi-Level Marketing (MLM) Matrix Payouts",
+      "Real Estate Deed Registrations",
+      "Student Educational Marks & Academic Portals"
+    ],
+    "enforcementAction": "Immediate prompt rejection and security logging if feature requests cross into forbidden domains."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "resourceLimits": {
+    "maxDatabaseTables": 40,
+    "currentDatabaseTables": 9,
+    "maxActiveFiles": 100,
+    "storageQuotaMB": 500,
+    "circuitBreaker": {
+      "status": "GREEN",
+      "maxMemoryUsageMB": 128,
+      "maxExecutionTimeSec": 30
+    }
+  }
+}

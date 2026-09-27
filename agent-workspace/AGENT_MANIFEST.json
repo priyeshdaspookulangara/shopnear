@@ -1,0 +1,27 @@
+{
+  "manifestVersion": "2.0.0",
+  "projectType": "Multi-Vendor Hyperlocal & B2C E-Commerce Marketplace",
+  "systemName": "Shopnear",
+  "workspaceGuide": {
+    "coreEngine": {
+      "path": "core/",
+      "permissions": "READ_ONLY",
+      "description": "Immutable framework code, routing, PDO database drivers, and security controllers. Strict agent modification lock."
+    },
+    "dynamicModules": {
+      "path": "app/dynamic-modules/",
+      "permissions": "FULL_MUTATION_SANDBOX",
+      "description": "Authorized execution environment for AI-generated vendor extensions, landing controllers, and dynamic modules."
+    },
+    "governanceLayer": {
+      "path": "governance/",
+      "permissions": "READ_ONLY_FOR_AGENT",
+      "description": "Contains system constitution, domain scopes, and structural safety constraints."
+    },
+    "controlPlane": {
+      "path": "agent-workspace/",
+      "permissions": "APPEND_ONLY_LOGS",
+      "description": "Resource quotas, execution logs, and mutation history records."
+    }
+  }
+}
